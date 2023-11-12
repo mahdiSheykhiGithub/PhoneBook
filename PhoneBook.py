@@ -6,7 +6,7 @@ import json
 # FUNCTIONS
 # Update the data file
 def update_json_file(dic):
-    with open('phone_book.json', 'w') as update_file:
+    with open('PhoneBook_Data.json', 'w') as update_file:
         json.dump(dic, update_file)
 
 
@@ -145,7 +145,7 @@ def change_name(dic):
 
 
 # Read the data file
-with open('phone_book.json', 'r') as file:
+with open('PhoneBook_Data.json', 'r') as file:
     dictionary = json.load(file)
 
 # Run app
